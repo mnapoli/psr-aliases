@@ -1,0 +1,16 @@
+{
+    "name": "mnapoli/psr-aliases",
+    "description": "Aliases for PSR interfaces without the Interface suffix",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Napoli",
+            "email": "matthieu@mnapoli.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "aliases.php"
+        ]
+    }
+}
