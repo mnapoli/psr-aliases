@@ -21,3 +21,6 @@ class_alias('Psr\Link\LinkInterface', 'Psr\Link\Link', false);
 class_alias('Psr\Link\EvolvableLinkInterface', 'Psr\Link\EvolvableLink', false);
 class_alias('Psr\Link\LinkProviderInterface', 'Psr\Link\LinkProvider', false);
 class_alias('Psr\Link\EvolvableLinkProviderInterface', 'Psr\Link\EvolvableLinkProvider', false);
+
+// PSR-16
+class_alias('Psr\SimpleCache\CacheInterface', 'Psr\SimpleCache\Cache', false);
