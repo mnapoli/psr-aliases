@@ -15,3 +15,9 @@ class_alias('Psr\Http\Message\ServerRequestInterface', 'Psr\Http\Message\ServerR
 class_alias('Psr\Http\Message\StreamInterface', 'Psr\Http\Message\Stream', false);
 class_alias('Psr\Http\Message\UploadedFileInterface', 'Psr\Http\Message\UploadedFile', false);
 class_alias('Psr\Http\Message\UriInterface', 'Psr\Http\Message\Uri', false);
+
+// PSR-13
+class_alias('Psr\Link\LinkInterface', 'Psr\Link\Link', false);
+class_alias('Psr\Link\EvolvableLinkInterface', 'Psr\Link\EvolvableLink', false);
+class_alias('Psr\Link\LinkProviderInterface', 'Psr\Link\LinkProvider', false);
+class_alias('Psr\Link\EvolvableLinkProviderInterface', 'Psr\Link\EvolvableLinkProvider', false);
